@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sortinggpt"
+version = "0.1.0"
+description = ""
+authors = ["zlxlty <lus2@carleton.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tinydb = "^4.8.0"
+langchain = "^0.0.239"
+python-dotenv = "^1.0.0"
+openai = "^0.27.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
