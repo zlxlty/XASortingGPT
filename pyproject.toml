@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sortinggpt"
-version = "0.1.0"
+version = "0.3.0"
 description = ""
 authors = ["zlxlty <lus2@carleton.edu>"]
 license = "MIT"
@@ -12,7 +12,15 @@ tinydb = "^4.8.0"
 langchain = "^0.0.239"
 python-dotenv = "^1.0.0"
 openai = "^0.27.8"
+black = "^23.7.0"
+isort = "^5.12.0"
 
+[tool.black]
+line-length = 100
+skip-string-normalization = true
+
+[tool.isort]
+line_length = 100
 
 [build-system]
 requires = ["poetry-core"]
